@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+.card{
+    @apply bg-white rounded overflow-hidden shadow-md relative my-6 
+
+}
+.badge{
+ @apply bg-sparkle-100 text-sparkle-200 rounded-full absolute top-0 m-2 p-1 uppercase text-xs
+}
+.btn{
+    @apply text-xs font-bold rounded-full px-2 py-1 cursor-pointer tracking-wider 
+}
